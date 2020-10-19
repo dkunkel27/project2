@@ -4,12 +4,11 @@
 
 body {
     background-color: hsl(18, 88, 65);
+    color: black;
+    font-family: 'Libre Baskerville', serif;
 }
 
-.card {
-    background-color: white;
 
-}
 
 .icon {
     stroke: black;
