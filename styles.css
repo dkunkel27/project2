@@ -1,32 +1,29 @@
-*{ 
+* {
     box-sizing: border-box;
 }
 
-body{
-    background-color: hsl(18,88,65);
+body {
+    background-color: hsl(18, 88, 65);
 }
 
-.card{
-    background-color: white
-    width:
-    margin-left:
+.card {
+    background-color: white;
 
 }
 
-.menu-content{
-    color: black;
+.icon {
+    stroke: black;
 }
 
-h3{ 
-    color: hsl(111,12,65);
+h3 {
+    color: hsl(111, 12, 65);
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    margin-left:
+
 }
 
-h4{
-    color: black
+h4 {
+    color: black;
     font-family: 'Montserrat', sans-serif;
 
 }
-
