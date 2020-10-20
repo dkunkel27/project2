@@ -3,19 +3,16 @@
 }
 
 body {
-    background-color: hsl(18, 88, 65);
+    /* background-color: rgb(244, 136, 90); */
     color: black;
     font-family: 'Libre Baskerville', serif;
 }
 
 
 
-.icon {
-    stroke: black;
-}
 
 h3 {
-    color: hsl(111, 12, 65);
+    color: rgb(142,167,66);
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-decoration-line: none;
@@ -28,16 +25,26 @@ h2 {
 
 }
 
+
+.article-title, .cat-title { 
+    text-decoration-line: none;
+
+}
+
+.article-title {
+    color: black
+}
 .article-title:hover {
     color: rgb(244, 136, 90);
     text-decoration: solid underline rgb(244, 136, 90);
 }
 
+.cat-title {
+    
 
 
-a { 
-    text-decoration-line: none;
 }
+
 
 
     
