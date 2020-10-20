@@ -6,13 +6,14 @@ body {
     /* background-color: rgb(244, 136, 90); */
     color: black;
     font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
 }
 
 
 
 
 h3 {
-    color: rgb(142,167,66);
+    color: rgb(142, 167, 66);
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-decoration-line: none;
@@ -26,29 +27,37 @@ h2 {
 }
 
 
-.article-title, .cat-title { 
+.article-title,
+.cat-title {
     text-decoration-line: none;
 
 }
 
+
 .article-title {
     color: black
 }
+
 .article-title:hover {
     color: rgb(244, 136, 90);
     text-decoration: solid underline rgb(244, 136, 90);
 }
 
+
 .cat-title {
-    
+    color: rgb(142, 167, 66);
+}
 
-
+.cat-title:hover {
+    text-decoration: solid underline rgb(142, 167, 66);
 }
 
 
+.author-date {
+    font-weight: bold;
+}
 
-    
-
+/* icons of bookmark, star, share */ 
 svg {
     fill: transparent;
     height: 80px;
@@ -63,3 +72,5 @@ svg:focus {
     fill: rgb(244, 136, 90);
     stroke: rgb(244, 136, 90);
 }
+
+
