@@ -28,13 +28,19 @@ h2 {
 
 }
 
+.article-title:hover {
+    color: rgb(244, 136, 90);
+    text-decoration: solid underline rgb(244, 136, 90);
+}
+
+
+
 a { 
     text-decoration-line: none;
 }
-a:hover,
-a: focus {
-    text-decoration: solid, 
-}
+
+
+    
 
 svg {
     fill: transparent;
