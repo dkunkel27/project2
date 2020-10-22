@@ -6,20 +6,26 @@ body {
     background-color: rgb(244, 136, 90);
     color: black;
     font-family: 'Libre Baskerville', serif;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 17px;
 }
 
 article {
     background-color: white
-    width: 436px;
-    height: 196px;
+    border-radius: 
+    /* width: 436px;
+    height: 196px; */ 
 }
 
+li{
+    display: inline-block;
+}
 
 img {
     height: 196px;
     width: 200px;
 }
+
 
 
 
