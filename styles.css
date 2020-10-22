@@ -12,17 +12,17 @@ body {
 
 article {
     background-color: white
-    border-radius: 
     /* width: 436px;
     height: 196px; */ 
 }
 
 li{
     display: inline-block;
+
 }
 
 img {
-    height: 196px;
+    height: auto;
     width: 200px;
 }
 
