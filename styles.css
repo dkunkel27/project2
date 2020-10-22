@@ -3,12 +3,19 @@
 }
 
 body {
-    /* background-color: rgb(244, 136, 90); */
+    background-color: rgb(244, 136, 90);
     color: black;
     font-family: 'Libre Baskerville', serif;
     font-size: 16px;
 }
 
+
+
+article {
+    background-color: white
+    width: 432px:
+    
+}
 
 
 
@@ -27,17 +34,17 @@ h2 {
 }
 
 
+
+
 .article-title,
 .cat-title {
     text-decoration-line: none;
-
 }
 
 
 .article-title {
     color: black
 }
-
 .article-title:hover {
     color: rgb(244, 136, 90);
     text-decoration: solid underline rgb(244, 136, 90);
@@ -47,9 +54,8 @@ h2 {
 .cat-title {
     color: rgb(142, 167, 66);
 }
-
 .cat-title:hover {
-    text-decoration: solid underline rgb(142, 167, 66);
+    color: rgb(88, 104, 41);
 }
 
 
