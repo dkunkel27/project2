@@ -13,12 +13,11 @@ body {
 
 article {
     background-color: white
-    width: 432px:
-    
+
 }
 
-
-
+/* H= 24.5p = 394px ... W= 54.5p = 872px.....cn have max width 640 */
+/* /2.... 197 ..............436 */ 
 h3 {
     color: rgb(142, 167, 66);
     font-family: 'Montserrat', sans-serif;
