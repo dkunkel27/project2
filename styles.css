@@ -16,7 +16,7 @@ article {
     width: 436px;
     height: 196px;
     margin: 100px 50px;
-
+    border-radius: 5%;
 }
 
 li {
@@ -35,6 +35,8 @@ img {
 .border-style {
     height: 196px;
     width: 196px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
 }
 
 
