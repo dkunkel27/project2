@@ -48,6 +48,25 @@ h2 {
 
 
 
+/* icons of bookmark, star, share */ 
+svg {
+    fill: transparent;
+    height: 20px;
+    stroke: rgb(244, 136, 90);
+    stroke-width: 3px;
+    transition: all 300ms ease;
+    width: auto;
+}
+
+svg:hover,
+svg:focus {
+    fill: rgb(244, 136, 90);
+    stroke: rgb(244, 136, 90);
+}
+
+
+
+/* Class Styles */ 
 .article-title,
 .cat-title {
     text-decoration-line: none;
@@ -75,20 +94,6 @@ h2 {
     font-weight: bold;
 }
 
-/* icons of bookmark, star, share */ 
-svg {
-    fill: transparent;
-    height: 80px;
-    stroke: rgb(244, 136, 90);
-    stroke-width: 3px;
-    transition: all 300ms ease;
-    width: auto;
-}
 
-svg:hover,
-svg:focus {
-    fill: rgb(244, 136, 90);
-    stroke: rgb(244, 136, 90);
-}
 
 
