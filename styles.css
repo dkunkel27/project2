@@ -11,14 +11,15 @@ body {
 }
 
 article {
-    background-color: white
-    /* width: 436px;
-    height: 196px; */ 
-    margin-left: 50px;
-    padding
+   
+    background-color: rgb(255,255,255);
+    width: 436px;
+    height: 196px;
+    margin: 100px 50px;
+
 }
 
-li{
+li {
     display: inline-block;
 
 }
@@ -27,30 +28,35 @@ img {
     height: auto;
     width: 220px;
 }
-
+.border-style {
+    height: 196px;
+    width: 196px;
+}
 
 
 
 /* H= 24.5p = 394px ... W= 54.5p = 872px.....cn have max width 640 */
-/* /2.... 197 ..............436 */ 
+/* /2.... 197 ..............436 */
 h3 {
     color: rgb(142, 167, 66);
     font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
     text-transform: uppercase;
     text-decoration-line: none;
-
+    margin-top: -160px;
+    margin-left: 220px;
 }
 
 h2 {
     color: black;
     font-family: 'Montserrat', sans-serif;
-
+    margin-left
 }
 
 
 
 
-/* icons of bookmark, star, share */ 
+/* icons of bookmark, star, share */
 svg {
     fill: transparent;
     height: 20px;
@@ -68,7 +74,7 @@ svg:focus {
 
 
 
-/* Class Styles */ 
+/* Class Styles */
 .article-title,
 .cat-title {
     text-decoration-line: none;
@@ -78,6 +84,7 @@ svg:focus {
 .article-title {
     color: black
 }
+
 .article-title:hover {
     color: rgb(244, 136, 90);
     text-decoration: solid underline rgb(244, 136, 90);
@@ -87,6 +94,7 @@ svg:focus {
 .cat-title {
     color: rgb(142, 167, 66);
 }
+
 .cat-title:hover {
     color: rgb(88, 104, 41);
 }
@@ -97,8 +105,4 @@ svg:focus {
 }
 
 
-.border-style {
-    height: 196px;
-    width: 196px;
-}
 
