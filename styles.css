@@ -14,6 +14,8 @@ article {
     background-color: white
     /* width: 436px;
     height: 196px; */ 
+    margin-left: 50px;
+    padding
 }
 
 li{
@@ -23,7 +25,7 @@ li{
 
 img {
     height: auto;
-    width: 200px;
+    width: 220px;
 }
 
 
@@ -95,5 +97,8 @@ svg:focus {
 }
 
 
-
+.border-style {
+    height: 196px;
+    width: 196px;
+}
 
