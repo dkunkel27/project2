@@ -6,12 +6,11 @@ body {
     background-color: rgb(244, 136, 90);
     color: black;
     font-family: 'Libre Baskerville', serif;
-    font-size: 9px;
-    line-height: 12px;
+    font-size: 7px;
+    line-height: 10px;
 }
 
 article {
-
     background-color: rgb(255, 255, 255);
     width: 436px;
     height: 196px;
@@ -21,7 +20,7 @@ article {
 
 li {
     display: inline-block;
-    vertical-align: middle;
+    ho-align: middle;
     margin-left: 240px;
 
 }
@@ -29,9 +28,8 @@ li {
 img {
     height: auto;
     width: 220px;
-    margin-top: -78px;
+    margin-top: -76px;
 }
-
 .border-style {
     height: 196px;
     width: 196px;
@@ -47,17 +45,18 @@ img {
 h3 {
     color: rgb(142, 167, 66);
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+    font-size: 8px;
     text-transform: uppercase;
     text-decoration-line: none;
-    margin-top: -160px;
-    margin-left: 220px;
+    margin-top: -170px;
+    margin-left: 210px;
 }
 
 h2 {
     color: black;
     font-family: 'Montserrat', sans-serif;
-    margin-left
+    font-size: 10px;
+    margin-left: 220px;
 }
 
 
@@ -107,7 +106,11 @@ svg:focus {
     color: rgb(88, 104, 41);
 }
 
+.post-blurb {
+    margin-left: 220px;
+}
 
 .author-date {
     font-weight: bold;
-    margin-left: 200px;
+    margin-top: 
+    margin-left: 280px;
