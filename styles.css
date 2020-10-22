@@ -9,12 +9,19 @@ body {
     font-size: 16px;
 }
 
-
-
 article {
     background-color: white
-
+    width: 436px;
+    height: 196px;
 }
+
+
+img {
+    height: 196px;
+    width: 200px;
+}
+
+
 
 /* H= 24.5p = 394px ... W= 54.5p = 872px.....cn have max width 640 */
 /* /2.... 197 ..............436 */ 
