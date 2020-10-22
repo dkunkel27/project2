@@ -17,19 +17,19 @@ article {
     margin: 100px 50px;
     border-radius: 5%;
     padding-right: 20px;
-    
+
 }
 
 li {
     display: inline-block;
     margin-left: 350px;
-
 }
 
 img {
     height: auto;
-    width: 220px;
+    width: 100%;
     margin-top: -76px;
+    object-fit: cover;
 }
 
 .border-style {
@@ -41,9 +41,6 @@ img {
 }
 
 
-
-/* H= 24.5p = 394px ... W= 54.5p = 872px.....cn have max width 640 */
-/* /2.... 197 ..............436 */
 h3 {
     color: rgb(142, 167, 66);
     font-family: 'Montserrat', sans-serif;
@@ -52,7 +49,7 @@ h3 {
     text-decoration-line: none;
     margin-top: -170px;
     margin-left: 210px;
-    
+
 }
 
 h2 {
@@ -115,7 +112,7 @@ svg:focus {
 .post-blurb {
     margin-top: 10px;
     margin-left: 220px;
-    
+
 }
 
 .author-date {
