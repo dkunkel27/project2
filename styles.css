@@ -21,11 +21,11 @@ article {
 }
 
 li {
-    
+
     display: inline-block;
     list-style: none;
     margin-top: none;
-    
+
     margin-left: 350px;
 }
 
@@ -33,23 +33,28 @@ img {
     height: 196px;
     width: auto;
     margin-top: -76px;
-    object-fit: cover;  /* what is this what does it do why did i put this? */
+    object-fit: cover;
+    /* what is this what does it do why did i put this? */
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
 }
 
-.img-wrapper {
+
+
+.image-wrapper {
     position: relative;
 }
-.imag-wrapper::before{
+
+.image-wrapper::before {
     content: '';
     display: block;
-    height: 100%;
+    height: 196px;
     position: absolute;
-    width: 100%;
+    width: 196px;
 }
-.image-wrapper:hover::before{
-    background: black;
+
+.image-wrapper:hover::before {
+    background: rgb(0, 0, 0);
 }
 
 /* prob dont need this just delete this and class in html ------
@@ -94,7 +99,7 @@ svg {
     stroke: rgb(244, 136, 90);
     stroke-width: 3px;
     transition: all 300ms ease;
-   
+
 
 }
 
