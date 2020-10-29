@@ -21,7 +21,11 @@ article {
 }
 
 li {
+    
     display: inline-block;
+    list-style: none;
+    margin-top: none;
+    
     margin-left: 350px;
 }
 
@@ -32,6 +36,20 @@ img {
     object-fit: cover;  /* what is this what does it do why did i put this? */
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
+}
+
+.img-wrapper {
+    position: relative;
+}
+.imag-wrapper::before{
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.image-wrapper:hover::before{
+    background: black;
 }
 
 /* prob dont need this just delete this and class in html ------
