@@ -7,10 +7,11 @@
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
-  }
-  .u-list-inline li {
+}
+
+.u-list-inline li {
     display: inline-block;
-  }
+}
 
 
 body {
@@ -20,6 +21,8 @@ body {
     font-size: 7px;
     line-height: 10px;
 }
+
+/* ////// base elements /////// */ 
 
 article {
     background-color: rgb(255, 255, 255);
@@ -40,8 +43,8 @@ img {
     border-bottom-left-radius: 5%;
 }
 
-ul { 
-    position: absolute; 
+ul {
+    position: absolute;
     top: 0;
     right: 0;
 
@@ -71,15 +74,6 @@ ul {
     opacity: 20%;
 }
 
-/* prob dont need this just delete this and class in html ------
-.border-style {
-    height: 196px;
-    width: 196px;
-    border-top-left-radius: 5%;
-    border-bottom-left-radius: 5%;
-
-} */
-
 
 h3 {
     color: rgb(142, 167, 66);
@@ -87,7 +81,7 @@ h3 {
     font-size: 8px;
     text-transform: uppercase;
     text-decoration-line: none;
-   
+
 
 
 }
@@ -134,7 +128,7 @@ svg:focus {
 }
 
 
-/* Class Styles */
+/* ////// base elements ///////  */
 .article-title,
 .cat-title {
     text-decoration-line: none;
