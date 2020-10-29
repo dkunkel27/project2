@@ -51,10 +51,13 @@ img {
     height: 196px;
     position: absolute;
     width: 196px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
 }
 
 .image-wrapper:hover::before {
-    background: rgb(0, 0, 0);
+    background: black;
+    opacity: 20%;
 }
 
 /* prob dont need this just delete this and class in html ------
