@@ -13,6 +13,8 @@
     display: inline-block;
 }
 
+/* ////// base elements /////// 
+//////////////////////////////*/
 
 body {
     background-color: rgb(244, 136, 90);
@@ -22,7 +24,6 @@ body {
     line-height: 10px;
 }
 
-/* ////// base elements /////// */ 
 
 article {
     background-color: rgb(255, 255, 255);
@@ -30,9 +31,7 @@ article {
     height: 196px;
     margin: 100px 50px;
     border-radius: 10px;
-
 }
-
 
 img {
     /* display: block; */
@@ -43,12 +42,48 @@ img {
     border-bottom-left-radius: 5%;
 }
 
+h2 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: rgb(142, 167, 66);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    text-decoration-line: none;
+}
+
+/* icons of bookmark, star, share */
 ul {
     position: absolute;
     top: 0;
     right: 0;
-
 }
+
+svg {
+    fill: transparent;
+    height: auto;
+    width: 10px;
+    stroke: rgb(244, 136, 90);
+    stroke-width: 3px;
+    transition: all 300ms ease;
+}
+
+svg:hover,
+svg:focus {
+    fill: rgb(244, 136, 90);
+    stroke: rgb(244, 136, 90);
+}
+
+
+/* ////// class styles /////// 
+/////////////////////////////*/
+
 
 .image-wrapper {
     position: relative;
@@ -66,57 +101,12 @@ ul {
     width: 100%;
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
-
 }
 
 .image-wrapper:hover::before {
     background: black;
     opacity: 20%;
 }
-
-
-h3 {
-    color: rgb(142, 167, 66);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 8px;
-    text-transform: uppercase;
-    text-decoration-line: none;
-
-
-
-}
-
-h2 {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    line-height: 14px;
-    margin-top: 20px;
-
-
-}
-
-
-
-
-/* icons of bookmark, star, share */
-svg {
-    fill: transparent;
-    height: auto;
-    width: 10px;
-    stroke: rgb(244, 136, 90);
-    stroke-width: 3px;
-    transition: all 300ms ease;
-
-
-}
-
-svg:hover,
-svg:focus {
-    fill: rgb(244, 136, 90);
-    stroke: rgb(244, 136, 90);
-}
-
 
 
 .article-details {
@@ -128,12 +118,10 @@ svg:focus {
 }
 
 
-/* ////// base elements ///////  */
 .article-title,
 .cat-title {
     text-decoration-line: none;
 }
-
 
 .article-title {
     color: black
@@ -157,8 +145,6 @@ svg:focus {
 
 .post-blurb {
     margin-top: 10px;
-
-
 }
 
 .author-date {
