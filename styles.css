@@ -26,19 +26,22 @@ li {
 }
 
 img {
-    height: auto;
-    width: 100%;
+    height: 196px;
+    width: auto;
     margin-top: -76px;
-    object-fit: cover;
+    object-fit: cover;  /* what is this what does it do why did i put this? */
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
 }
 
+/* prob dont need this just delete this and class in html ------
 .border-style {
     height: 196px;
     width: 196px;
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
 
-}
+} */
 
 
 h3 {
