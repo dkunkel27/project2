@@ -16,7 +16,6 @@ article {
     height: 196px;
     margin: 100px 50px;
     border-radius: 10px;
-    padding-right: 20px;
 
 }
 
@@ -119,6 +118,15 @@ svg:focus {
     stroke: rgb(244, 136, 90);
 }
 
+
+
+.article-details {
+    display: inline-block;
+    width: calc(100% - 200px);
+    padding: 20px;
+
+
+}
 
 
 /* Class Styles */
