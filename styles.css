@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(244, 136, 90);
+    /* background-color: rgb(244, 136, 90); */
     color: black;
     font-family: 'Libre Baskerville', serif;
     font-size: 7px;
@@ -22,12 +22,13 @@ article {
 
 li {
 
-    display: inline-block;
+   display: inline-block;
     list-style: none;
-    margin-top: none;
-
+    padding-left: 0; 
     margin-left: 350px;
+    
 }
+.u-list
 
 img {
     height: 196px;
