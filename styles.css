@@ -24,11 +24,13 @@ li {
 
    display: inline-block;
     list-style: none;
-    padding-left: 0; 
+    padding-left: 0px; 
     margin-left: 350px;
     
 }
-.u-list
+.u-list-inline li {
+    display: inline-block;
+}
 
 img {
     height: 196px;
