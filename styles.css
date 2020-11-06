@@ -12,7 +12,8 @@
 .u-list-inline li {
     display: inline-block;
     margin-top: 15px;
-    padding-right: 10px;
+    margin-left: -9px;
+    margin-right: 10px;
 }
 
 /* ////// base elements /////// 
@@ -36,8 +37,6 @@ article {
 }
 
 img {
-    /* display: block; */
-    /*  height: 196px; */
     max-width: 100%;
     object-fit: cover;
     border-top-left-radius: 5%;
@@ -127,7 +126,6 @@ svg:focus {
 
 .article-title {
     color: black;
-    margin-left: 10px;
 }
 
 .article-title:hover,
@@ -147,8 +145,8 @@ svg:focus {
 }
 
 .post-blurb {
-    margin-top: 10px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .author-date {
