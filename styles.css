@@ -11,6 +11,8 @@
 
 .u-list-inline li {
     display: inline-block;
+    margin-top: 15px;
+    padding-right: 10px;
 }
 
 /* ////// base elements /////// 
@@ -125,6 +127,7 @@ svg:focus {
 
 .article-title {
     color: black;
+    margin-left: 10px;
 }
 
 .article-title:hover,
@@ -145,6 +148,7 @@ svg:focus {
 
 .post-blurb {
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .author-date {
